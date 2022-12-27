@@ -89,7 +89,6 @@ const NewTransactionForm = () => {
           {segment.words.map((w) => w.value).join(" ")}
         </div>
       ) : null}
-         {/* {isSpeaking ? <BigTranscript /> : 'Start adding transactions'}  */}
         </Typography>
       </Grid>
       <Grid item xs={6}>
